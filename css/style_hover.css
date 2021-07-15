@@ -31,53 +31,11 @@ body {
 
 }
 
+
+
+/* 鼠标选中特效 */
+
 .box .box1 .font {
-	background: url(../img/s1.jpg);
-	background-size: 100% 100%;
-	opacity:0.8;
-	transform: translateZ(200px);
-}
-
-.box .box1 .back {
-	background: url(../img/s2.jpg);
-	background-size: 100% 100%;
-	opacity:0.8;
-	transform: translateZ(-200px) rotateY(180deg);
-}
-
-.box .box1 .right {
-	background: url(../img/s3.jpg);
-	background-size: 100% 100%;
-	opacity:0.8;
-	transform: rotateY(90deg) translateZ(200px);
-}
-
-.box .box1 .left {
-	background: url(../img/s4.jpg);
-	background-size: 100% 100%;
-	opacity:0.8;
-	transform: rotateY(-90deg) translateZ(200px);
-}
-
-.box .box1 .top {
-	background: url(../img/s5.jpg);
-	background-size: 100% 100%;
-	opacity:0.8;
-	transform: rotateX(90deg) translateZ(200px);
-}
-
-.box .box1 .bottom {
-	background: url(../img/s6.jpg);
-	background-size: 100% 100%;
-	opacity:0.8;
-	transform: rotateX(-90deg) translateZ(200px);
-}
-
-
-/* 鼠标悬停特效 */
-/* 移动端禁用hover特效 */
-@media(hover: hover) and (pointer: fine) {
-.box .box1:hover .font {
 	background: url(../img/s1.jpg);
 	background-size: 100% 100%;
 	opacity:0.4;
@@ -85,7 +43,7 @@ body {
 	transform: translateZ(400px);
 }
 
-.box .box1:hover .back {
+.box .box1 .back {
 	background: url(../img/s2.jpg);
 	background-size: 100% 100%;
 	opacity:0.4;
@@ -93,7 +51,7 @@ body {
 	transform: translateZ(-400px) rotateY(180deg);
 }
 
-.box .box1:hover .right {
+.box .box1 .right {
 	background: url(../img/s3.jpg);
 	background-size: 100% 100%;
 	opacity:0.4;
@@ -101,7 +59,7 @@ body {
 	transform: rotateY(90deg) translateZ(400px);
 }
 
-.box .box1:hover .left {
+.box .box1 .left {
 	background: url(../img/s4.jpg);
 	background-size: 100% 100%;
 	opacity:0.4;
@@ -109,7 +67,7 @@ body {
 	transform: rotateY(-90deg) translateZ(400px);
 }
 
-.box .box1:hover .top {
+.box .box1 .top {
 	background: url(../img/s5.jpg);
 	background-size: 100% 100%;
 	opacity:0.4;
@@ -117,14 +75,14 @@ body {
 	transform: rotateX(90deg) translateZ(400px);
 }
 
-.box .box1:hover .bottom {
+.box .box1 .bottom {
 	background: url(../img/s6.jpg);
 	background-size: 100% 100%;
 	opacity:0.4;
 	transition-duration: 1s;
 	transform: rotateX(-90deg) translateZ(400px);
 }
-}
+
 
 /*�γ�ħ��������ת*/
 /* @keyframes dh {
